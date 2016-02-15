@@ -1,0 +1,81 @@
+
+'.text.mjml.basic, .text.mjml, .text.mjml .meta.scope.between-tag-pair, .text.mjml .punctuation.tag.begin':
+
+# MJML elements
+
+  'Mjml Column':
+    'prefix': 'col'
+    'body': """
+      <mj-column>
+          $1
+      </mj-column>
+    """
+
+  'Mjml Column':
+    'prefix': 'column'
+    'body': """
+      <mj-column>
+          $1
+      </mj-column>
+    """
+
+  'Section':
+    'prefix': 'section'
+    'body': """
+      <mj-section>
+          $1
+      </mj-section>
+    """
+
+  'Raw':
+    'prefix': 'raw'
+    'body': """
+      <mj-raw>
+          $1
+      </mj-raw>
+    """
+
+  'Text':
+    'prefix': 'text'
+    'body': """
+      <mj-text>
+          $1
+      </mj-text>
+    """
+
+  'Button':
+    'prefix': 'button'
+    'body': """
+      <mj-button>
+          $1
+      </mj-button>
+    """
+
+  'List':
+    'prefix': 'list'
+    'body': """
+      <mj-list>
+          $1
+      </mj-list>
+    """
+
+  'Body':
+    'prefix': 'body'
+    'body': """
+      <mj-body>
+          $1
+      </mj-body>
+    """
+
+  'Social':
+    'prefix': 'social'
+    'body': """
+      <mj-social>
+          $1
+      </mj-social>
+    """
+
+  # A
+  'Anchor':
+    'prefix': 'a'
+    'body': '<a href="${1:#}">$2</a>$0'
