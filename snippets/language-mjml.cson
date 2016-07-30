@@ -176,7 +176,7 @@
   'Mjml Container with attributes':
     'prefix': 'contain-'
     'body': """
-      <mj-container ${1:width="${2:600px}"} ${3:background-color="${4}"}>\n\t$1\n</mj-container>
+      <mj-container ${1:width="${2:600px}"} ${3:background-color="${4}"}>\n\t$5\n</mj-container>
     """
 
   'Mjml Divider with attributes':
@@ -188,67 +188,67 @@
   'Mjml Container with attributes':
     'prefix': 'container-'
     'body': """
-      <mj-container ${1:width="${2:600px}"} ${3:background-color="${4}"}>\n\t$1\n</mj-container>
+      <mj-container ${1:width="${2:600px}"} ${3:background-color="${4}"}>\n\t$5\n</mj-container>
     """
 
   'Mjml Invoice with attributes':
     'prefix': 'invoice-'
     'body': """
-      <mj-invoice ${1:color="${2:#b9b9b9}"} ${3:font-family="${4:Roboto, Ubuntu, Helvetica, Arial, sans-serif}"} ${5:font-size="${6:13px}"} ${7:line-height="${8:22px}"} ${9:border="${10:1px solid #ecedee}"} ${11:container-background-color="${12:}"} ${13:padding="${14:10px 25px}"}>\n\t$1\n</mj-invoice>
+      <mj-invoice ${1:color="${2:#b9b9b9}"} ${3:font-family="${4:Roboto, Ubuntu, Helvetica, Arial, sans-serif}"} ${5:font-size="${6:13px}"} ${7:line-height="${8:22px}"} ${9:border="${10:1px solid #ecedee}"} ${11:container-background-color="${12:}"} ${13:padding="${14:10px 25px}"}>\n\t$15\n</mj-invoice>
     """
 
   'Mjml Location with attributes':
     'prefix': 'location-'
     'body': """
-      <mj-location ${1:color="${2:#b9b9b9}"} ${3:font-family="${4:Roboto, Ubuntu, Helvetica, Arial, sans-serif}"} ${5:font-size="${6:13px}"} ${7:font-weight="${8:500}"} ${13:padding="${14:10px 25px}"}>\n\t$1\n</mj-location>
+      <mj-location ${1:color="${2:#b9b9b9}"} ${3:font-family="${4:Roboto, Ubuntu, Helvetica, Arial, sans-serif}"} ${5:font-size="${6:13px}"} ${7:font-weight="${8:500}"} ${13:padding="${14:10px 25px}"}>\n\t$15\n</mj-location>
     """
 
   'Mjml Table with attributes':
     'prefix': 'table-'
     'body': """
-      <mj-table ${1:color="${2:#000}"} ${3:cellpadding="${4}"} ${5:cellspacing="${6}"} ${7:font-family="${8:Ubuntu, Helvetica, Arial, sans-serif}"} ${9:font-size="${10:13px}"} ${11:line-height="${12:22px}"} ${13:container-background-color="${14}"} ${15padding:="${16:10px 25px}"}>\n\t$1\n</mj-table>
+      <mj-table ${1:color="${2:#000}"} ${3:cellpadding="${4}"} ${5:cellspacing="${6}"} ${7:font-family="${8:Ubuntu, Helvetica, Arial, sans-serif}"} ${9:font-size="${10:13px}"} ${11:line-height="${12:22px}"} ${13:container-background-color="${14}"} ${15padding:="${16:10px 25px}"}>\n\t$17\n</mj-table>
     """
 
   'Mjml Column with attributes':
     'prefix': 'col-'
     'body': """
-      <mj-column ${1:width="${2}"} ${3:vertical-align="${4:top}"} ${5:background-color	="${6}"}>\n\t$1\n</mj-column>
+      <mj-column ${1:width="${2}"} ${3:vertical-align="${4:top}"} ${5:background-color	="${6}"}>\n\t$7\n</mj-column>
     """
 
   'Mjml Column with attributes':
     'prefix': 'column-'
     'body': """
-      <mj-column ${1:width="${2}"} ${3:vertical-align="${4:top}"} ${5:background-color	="${6}"}>\n\t$1\n</mj-column>
+      <mj-column ${1:width="${2}"} ${3:vertical-align="${4:top}"} ${5:background-color	="${6}"}>\n\t$7\n</mj-column>
     """
 
   'Mjml Section with attributes':
     'prefix': 'section-'
     'body': """
-      <mj-section {1:full-width="${2}"} ${3:background-color="${4}"} ${5:background-url="${6}"} ${7:background-repeat="${8:repeat}"} ${9:background-size="${10:auto}"} ${11:vertical-align="${12:top}"} ${13:text-align="${14:center}"} ${15:padding="${16:20px 0}"}>\n\t$1\n</mj-section>
+      <mj-section {$1:full-width="${2}"} ${3:background-color="${4}"} ${5:background-url="${6}"} ${7:background-repeat="${8:repeat}"} ${9:background-size="${10:auto}"} ${11:vertical-align="${12:top}"} ${13:text-align="${14:center}"} ${15:padding="${16:20px 0}"}>\n\t$17\n</mj-section>
     """
 
   'Mjml Text with attributes':
     'prefix': 'text-'
     'body': """
-      <mj-text ${1:color="${2:#000000}"} ${3:font-family="${4:Ubuntu, Helvetica, Arial, sans-serif}"} ${5:font-size="${6:13px}"} ${7:font-style="${8}"} ${9:font-weight="${10}"} ${11:line-height="${12:22px}"} ${13:text-decoration="${14}"} ${15:text-transform="${16}"} ${17:align="${18:left}"} ${16:container-background-color="${17}"} ${18:padding="${19:10px 25px}"}>\n\t$1\n</mj-text>
+      <mj-text ${1:color="${2:#000000}"} ${3:font-family="${4:Ubuntu, Helvetica, Arial, sans-serif}"} ${5:font-size="${6:13px}"} ${7:font-style="${8}"} ${9:font-weight="${10}"} ${11:line-height="${12:22px}"} ${13:text-decoration="${14}"} ${15:text-transform="${16}"} ${17:align="${18:left}"} ${16:container-background-color="${17}"} ${18:padding="${19:10px 25px}"}>\n\t$20\n</mj-text>
     """
 
   'Mjml Button with attributes':
     'prefix': 'button-'
     'body': """
-      <mj-button ${1:background-color="${2:#414141}"} ${3:container-background-color="${4}"} ${5:border-radius="${6:	3px}"} ${7:font-style="${8}"} ${9:=font-style"${10}"} ${11:font-size="${12:13px}"} ${13:font-weight="${14:bold}"} ${15:font-family="${16:Ubuntu, Helvetica, Arial, sans-serif}"} ${17:color="${18:#ffffff}"} ${16:border="${17}"} ${18:text-decoration	="${19}"} ${20:text-transform="${21:}"} ${22:align="${23:center}"} ${24:vertical-align="${25:middle}"} ${26:href="${27}"} ${28:inner-padding="${29:15px 25px}"} ${30:inner-padding="${31:15px 25px}"}>\n\t$1\n</mj-button>
+      <mj-button ${1:background-color="${2:#414141}"} ${3:container-background-color="${4}"} ${5:border-radius="${6:	3px}"} ${7:font-style="${8}"} ${9:=font-style"${10}"} ${11:font-size="${12:13px}"} ${13:font-weight="${14:bold}"} ${15:font-family="${16:Ubuntu, Helvetica, Arial, sans-serif}"} ${17:color="${18:#ffffff}"} ${16:border="${17}"} ${18:text-decoration	="${19}"} ${20:text-transform="${21:}"} ${22:align="${23:center}"} ${24:vertical-align="${25:middle}"} ${26:href="${27}"} ${28:inner-padding="${29:15px 25px}"} ${30:inner-padding="${31:15px 25px}"}>\n\t$32\n</mj-button>
     """
 
   'Mjml List with attributes':
     'prefix': 'list-'
     'body': """
-      <mj-list ${1:color="${2:#000000}"} ${3:font-family="${4:Ubuntu, Helvetica, Arial, sans-serif}"} ${5:font-size="${6:13px}"} ${7:line-height="${8:22px}"} ${9:padding="${10:10px 25px}"}>\n\t<li>$1</li>\n</mj-list>
+      <mj-list ${1:color="${2:#000000}"} ${3:font-family="${4:Ubuntu, Helvetica, Arial, sans-serif}"} ${5:font-size="${6:13px}"} ${7:line-height="${8:22px}"} ${9:padding="${10:10px 25px}"}>\n\t<li>$11</li>\n</mj-list>
     """
 
   'Mjml Social with attributes':
     'prefix': 'social-'
     'body': """
-      <mj-social ${1:facebook-content="${2:Share}"} ${3:facebook-href="${4}"} ${5:facebook-icon-color="${6:#3b5998}"} ${7:font-family="${8:Ubuntu, Helvetica, Arial, sans-serif}"} ${9:font-size="${10:13px}"} ${11:google-content="${12:+1}"} ${13:google-href="${14}"} ${15:google-icon-color="${16:#dc4e41}"} ${17:icon-size="${18:20px}"} ${16:instagram-content="${17:Share}"} ${18:instagram-href="${19}"} ${20:instagram-icon-color="${21:#3f729b}"} ${22:line-height="${23:22px}"} ${24:linkedin-content="${25:Share}"} ${26:linkedin-href="${27}"} ${28:linkedin-icon-color="${29:#0077b5}"} ${30:mode="${31:horizontal}"} ${32:pinterest-content="${33:Pin it}"} ${34:pinterest-href="${35}"} ${36:pinterest-icon-color="${37:#bd081c}"} ${38:text-decoration="${40:none}"} ${41:text-mode="${42:true}"} ${43:twitter-content="${44:Tweet}"} ${45:twitter-href="${46}"} ${47:twitter-icon-color="${48:#55acee}"} ${49:align="${50:center}"} ${50:color="${51:	#333333}"} ${52:base-url="${53:https://www.mailjet.com/images/theme/v1/icons/ico-social/}"} ${54:display="${55:facebook} ${56:google } ${57:instagram} ${56:pinterest} ${57:linkedin}"} ${58:twitter}"} ${59:padding="${60:10px 25px}"}>\n\t$1\n</mj-social>
+      <mj-social ${1:facebook-content="${2:Share}"} ${3:facebook-href="${4}"} ${5:facebook-icon-color="${6:#3b5998}"} ${7:font-family="${8:Ubuntu, Helvetica, Arial, sans-serif}"} ${9:font-size="${10:13px}"} ${11:google-content="${12:+1}"} ${13:google-href="${14}"} ${15:google-icon-color="${16:#dc4e41}"} ${17:icon-size="${18:20px}"} ${16:instagram-content="${17:Share}"} ${18:instagram-href="${19}"} ${20:instagram-icon-color="${21:#3f729b}"} ${22:line-height="${23:22px}"} ${24:linkedin-content="${25:Share}"} ${26:linkedin-href="${27}"} ${28:linkedin-icon-color="${29:#0077b5}"} ${30:mode="${31:horizontal}"} ${32:pinterest-content="${33:Pin it}"} ${34:pinterest-href="${35}"} ${36:pinterest-icon-color="${37:#bd081c}"} ${38:text-decoration="${40:none}"} ${41:text-mode="${42:true}"} ${43:twitter-content="${44:Tweet}"} ${45:twitter-href="${46}"} ${47:twitter-icon-color="${48:#55acee}"} ${49:align="${50:center}"} ${50:color="${51:	#333333}"} ${52:base-url="${53:https://www.mailjet.com/images/theme/v1/icons/ico-social/}"} ${54:display="${55:facebook} ${56:google } ${57:instagram} ${56:pinterest} ${57:linkedin}"} ${58:twitter}"} ${59:padding="${60:10px 25px}"}>\n\t$61\n</mj-social>
     """
 
   'Mjml Image with attributes':
@@ -260,7 +260,7 @@
   'Mjml Group with attributes':
     'prefix': 'group-'
     'body': """
-      <mj-group ${1:width="${2}"} ${3:vertical-align="${4:top}"} ${5:background-color	="${6}"}>\n\t$1\n</mj-group>
+      <mj-group ${1:width="${2}"} ${3:vertical-align="${4:top}"} ${5:background-color	="${6}"}>\n\t$7\n</mj-group>
     """
 
   'Mjml Spacer with attributes':
@@ -273,6 +273,6 @@
     'prefix': 'hero-'
     'body': """
       <mj-hero ${1:width="${2}"} ${3:mode="${4:full-height}"} ${5:height="${6:Opx}"} ${7:background-width="${8:Opx}"} ${9:background-height="${10:Opx}"} ${11:background-url="${12}"} ${13:background-color="${14:#ffffff}"} ${15:background-position="${16:center center}"} ${17:padding="${18:	0px}"}>
-        <mj-hero-content ${1:width="${2:100%}"} ${3:align="${4:center}"} ${5:background-color	="${6:transparent} ${7:padding="${8:0px}"}">\n\t$1\n</mj-hero-content>
+        <mj-hero-content ${18:width="${19:100%}"} ${20:align="${21:center}"} ${22:background-color	="${23:transparent} ${24:padding="${8:0px}"}">\n\t$25\n</mj-hero-content>
       </mj-hero>
     """
